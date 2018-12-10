@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "apexcharts": "^2.4.1",
+    "aphrodite-jss": "^2.1.0",
     "axios": "^0.18.0",
     "react": "^16.7.0-alpha.2",
     "react-apexcharts": "^1.2.0",
