@@ -1,0 +1,1 @@
+export default 'finance-app-dev-v0.1';
