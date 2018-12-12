@@ -1,5 +1,6 @@
 import { StyleSheet } from 'aphrodite-jss'
 import { blue } from './vars/colors';
+import { defaultTransition } from './vars/transitions';
 
 export const authStyles = StyleSheet.create({
   authForm: {
@@ -8,6 +9,9 @@ export const authStyles = StyleSheet.create({
     padding: '30px',
     border: '1px solid #ccc',
     margin: '50px auto',
+    '@media screen and (max-width: 500px)': {
+      width: '90%'
+    },
     '& h1': {
       fontWeight: 'normal',
       textAlign: 'center',
@@ -32,7 +36,12 @@ export const authStyles = StyleSheet.create({
         padding: '0 15px',
         border: 'none',
         color: '#fff',
-        fontSize: '16px'
+        fontSize: '16px',
+        cursor: 'pointer',
+        transition: defaultTransition,
+        '&:hover': {
+          background: '#3498db'
+        }
       }
     }
   }

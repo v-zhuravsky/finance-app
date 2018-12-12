@@ -1,0 +1,1 @@
+export const defaultTransition = '.2s all';

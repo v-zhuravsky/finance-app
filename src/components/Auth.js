@@ -8,7 +8,7 @@ import { authStyles } from '../styles/Auth';
 const Auth = ({ user }) => {
   if (user.token) {
     if (user.token.length === 100) {
-      return <Redirect to="/dashboard" />;
+      return <Redirect to="/" />;
     }
   }
 
