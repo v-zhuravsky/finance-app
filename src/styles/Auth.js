@@ -1,4 +1,4 @@
-import { StyleSheet } from 'aphrodite-jss'
+import { StyleSheet } from 'aphrodite-jss';
 import { blue } from './vars/colors';
 import { defaultTransition } from './vars/transitions';
 
