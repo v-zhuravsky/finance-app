@@ -13,7 +13,7 @@ export const headerStyles = StyleSheet.create({
     height: '54px',
     padding: '0 20px',
     float: 'left',
-    width: 'calc(100% - 320px)',
+    width: '70%',
     overflow: 'hidden',
     '& a': {
       textDecoration: 'none',
@@ -33,7 +33,7 @@ export const headerStyles = StyleSheet.create({
   },
   section: {
     float: 'left',
-    width: '320px',
+    width: '30%',
     heigth: '54px',
     overflow: 'hidden',
     padding: '0 40px',
