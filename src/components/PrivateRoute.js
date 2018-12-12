@@ -6,7 +6,7 @@ const PrivateRoute = ({ component: Component, user, computedMatch, ...rest }) =>
   if (user !== null) {
     return <Route { ...rest } render={
       props => (
-        user.accessToken.length === 100
+        user.token.length === 100
           ? <Component match={computedMatch} />
           : <Redirect to="/auth" />
       )
