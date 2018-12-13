@@ -25,7 +25,7 @@ export const headerStyles = StyleSheet.create({
       lineHeight: '54px',
       padding: '0 20px',
       transition: defaultTransition,
-      '&:hover': {
+      '&:hover, &.active': {
         background: blue,
         color: '#fff'
       }

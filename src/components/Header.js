@@ -9,7 +9,8 @@ const Header = ({ user }) => {
   return (
     <header className={css(headerStyles.header)}>
       <nav className={css(headerStyles.nav)}>
-        <NavLink to="/">Home</NavLink>
+        <NavLink exact to="/">Home</NavLink>
+        <NavLink to="/stats">Stats</NavLink>
         <NavLink to="/categories">Categories</NavLink>
         <NavLink to="/family">Family</NavLink>
         <NavLink to="/profile">Profile</NavLink>
