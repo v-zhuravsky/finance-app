@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-import { CLEAR_STORE } from '../actions/types';
+import { CLEAR_STORE } from '../actions/types.ts';
 
 import userReducer from './userReducer';
 
