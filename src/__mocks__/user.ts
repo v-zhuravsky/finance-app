@@ -1,5 +1,6 @@
-export default {
+export const user = {
   token: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  id: 1,
   firstName: 'Viacheslav',
   lastName: 'Zhuravskyi',
   username: 'willson',
